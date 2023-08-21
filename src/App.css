@@ -1,0 +1,92 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardTitle {
+  color: #119bf7;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.centerBoth {
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card {
+  margin:15px;
+  padding:15px;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #eaeaea;
+}
+.results {
+  color: #119bf7;
+  font-weight: 600;
+}
+.css-1nrlq1o-MuiFormControl-root {
+  width: 100% !important;
+}
+.OutcomeBox {
+  position: relative;
+  padding: 20px;
+  width: calc(100% - 40px);
+  margin: 30px 0px;
+  border: 1px solid darkgray;
+  border-radius: 25px;
+}
+.outcomeSubTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+.m5 {
+  margin: 5px;
+}
+.redtext {
+  color: #c60000;
+}
+.outcomeTitle {
+  position: absolute;
+  color: #119bf7;
+  top: -14px;
+  left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #EAEAEA;
+  padding: 0px 8px;
+}
+
+.outcomeContent {
+  margin-top: 20px; 
+}
+
+@media screen and (max-width: 900px) {
+  .row {
+    flex-direction: column !important;
+  }
+  .col {
+    width: 100%;
+  }
+}
